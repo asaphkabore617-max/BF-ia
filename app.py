@@ -307,4 +307,3 @@ if question:
   "Je veux savoir symbole du carbone.": "Le symbole chimique du carbone est C.",
   "Explique-moi symbole du carbone.": "Le symbole chimique du carbone est C.",
   "Dis-moi symbole du carbone.": "Le symbole chimique du carbone est C.",
-  "Quelle est la réponse concernant symbole du
