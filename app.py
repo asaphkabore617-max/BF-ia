@@ -47,7 +47,7 @@ def repondre(question):
 
     return (
         "🤔 Je ne connais pas encore la réponse à cette question. "
-        "Mon créateur Asaph m'apprend encore et serai prêt dans les jours à venir."
+        "Mon créateur Asaph m'apprend encore et je serai prêt dans les jours à venir."
     )
 
 # ====================================
