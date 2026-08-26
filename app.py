@@ -21,7 +21,7 @@ with open("BF_IA_Maths.json", "r", encoding="utf-8") as f:
     connaissances_maths = json.load(f)
 
 # Regrouper toutes les connaissances
-connaissances.extend(connaissances_maths)
+connaissances.update(connaissances_maths)
 
 # ====================================
 # Fonction nettoyage
