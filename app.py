@@ -12,8 +12,16 @@ st.set_page_config(
 # Charger les connaissances
 # ====================================
 
+# Charger les connaissances générales
 with open("BF_IA_1200_connaissances.json", "r", encoding="utf-8") as f:
     connaissances = json.load(f)
+
+# Charger les connaissances de mathématiques
+with open("BF_IA_Maths.json", "r", encoding="utf-8") as f:
+    connaissances_maths = json.load(f)
+
+# Regrouper toutes les connaissances
+connaissances.extend(connaissances_maths)
 
 # ====================================
 # Fonction nettoyage
