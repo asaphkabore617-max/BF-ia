@@ -1,0 +1,296 @@
+{
+  "arithmetique": [
+    {
+      "question": "Comment calculer un pourcentage ?",
+      "answer": "Pour calculer p % d'un nombre N, on fait N × p / 100."
+    },
+    {
+      "question": "Comment additionner des fractions ?",
+      "answer": "On les met au même dénominateur, puis on additionne les numérateurs."
+    },
+    {
+      "question": "Comment multiplier des fractions ?",
+      "answer": "On multiplie les numérateurs entre eux et les dénominateurs entre eux, puis on simplifie si possible."
+    },
+    {
+      "question": "Comment diviser des fractions ?",
+      "answer": "On multiplie la première fraction par l'inverse de la deuxième, si celle-ci est non nulle."
+    },
+    {
+      "question": "Qu'est-ce qu'une puissance ?",
+      "answer": "a^n représente le produit de n facteurs égaux à a lorsque n est un entier naturel."
+    },
+    {
+      "question": "Quelle est la règle a^m × a^n ?",
+      "answer": "Pour une même base, a^m × a^n = a^(m+n)."
+    },
+    {
+      "question": "Quelle est la règle a^m / a^n ?",
+      "answer": "Pour a non nul, a^m / a^n = a^(m-n)."
+    },
+    {
+      "question": "Qu'est-ce qu'une racine carrée ?",
+      "answer": "La racine carrée de a≥0 est le nombre positif ou nul dont le carré vaut a."
+    },
+    {
+      "question": "Qu'est-ce que le PGCD ?",
+      "answer": "Le PGCD est le plus grand diviseur commun à deux entiers."
+    },
+    {
+      "question": "Qu'est-ce que le PPCM ?",
+      "answer": "Le PPCM est le plus petit multiple commun strictement positif de deux entiers non nuls."
+    }
+  ],
+  "algebre": [
+    {
+      "question": "Qu'est-ce qu'une équation ?",
+      "answer": "Une équation est une égalité contenant une ou plusieurs inconnues que l'on cherche à déterminer."
+    },
+    {
+      "question": "Comment résoudre ax+b=0 ?",
+      "answer": "Si a est non nul, ax+b=0 donne x=-b/a."
+    },
+    {
+      "question": "Quelle est la distributivité ?",
+      "answer": "a(b+c)=ab+ac."
+    },
+    {
+      "question": "Quelle est l'identité (a+b)² ?",
+      "answer": "(a+b)²=a²+2ab+b²."
+    },
+    {
+      "question": "Quelle est l'identité (a-b)² ?",
+      "answer": "(a-b)²=a²-2ab+b²."
+    },
+    {
+      "question": "Quelle est l'identité (a-b)(a+b) ?",
+      "answer": "(a-b)(a+b)=a²-b²."
+    },
+    {
+      "question": "Qu'est-ce que factoriser ?",
+      "answer": "Factoriser consiste à transformer une somme ou une différence en produit."
+    },
+    {
+      "question": "Qu'est-ce qu'un trinôme du second degré ?",
+      "answer": "Un trinôme du second degré s'écrit ax²+bx+c avec a différent de zéro."
+    },
+    {
+      "question": "Quelle est la formule du discriminant ?",
+      "answer": "Pour ax²+bx+c, Δ=b²-4ac."
+    },
+    {
+      "question": "Comment résoudre une équation du second degré ?",
+      "answer": "On calcule Δ=b²-4ac. Si Δ>0 il y a deux racines réelles, si Δ=0 une racine double, et si Δ<0 aucune racine réelle."
+    }
+  ],
+  "fonctions": [
+    {
+      "question": "Qu'est-ce qu'une fonction ?",
+      "answer": "Une fonction associe à chaque élément de son domaine une unique valeur."
+    },
+    {
+      "question": "Qu'est-ce que l'image de x ?",
+      "answer": "L'image de x par f est f(x)."
+    },
+    {
+      "question": "Qu'est-ce qu'un antécédent ?",
+      "answer": "Un antécédent de y est un nombre x tel que f(x)=y."
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction affine ?",
+      "answer": "Une fonction affine s'écrit f(x)=ax+b."
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction linéaire ?",
+      "answer": "Une fonction linéaire est de la forme f(x)=ax."
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction du second degré ?",
+      "answer": "Elle s'écrit f(x)=ax²+bx+c avec a différent de zéro."
+    },
+    {
+      "question": "Quelle est l'abscisse du sommet d'une parabole ?",
+      "answer": "Pour ax²+bx+c, l'abscisse du sommet est -b/(2a)."
+    },
+    {
+      "question": "Qu'est-ce qu'une dérivée ?",
+      "answer": "La dérivée mesure le taux de variation instantané d'une fonction et correspond à la pente de sa tangente lorsqu'elle existe."
+    },
+    {
+      "question": "Quelle est la dérivée de x² ?",
+      "answer": "La dérivée de x² est 2x."
+    },
+    {
+      "question": "Quelle est la dérivée de x^n ?",
+      "answer": "La dérivée de x^n est n x^(n-1) pour un entier n."
+    },
+    {
+      "question": "Quelle est la dérivée de e^x ?",
+      "answer": "La dérivée de e^x est e^x."
+    },
+    {
+      "question": "Quelle est la dérivée de ln(x) ?",
+      "answer": "Pour x>0, la dérivée de ln(x) est 1/x."
+    },
+    {
+      "question": "Qu'est-ce qu'une primitive ?",
+      "answer": "Une primitive de f est une fonction F dont la dérivée est f."
+    }
+  ],
+  "geometrie": [
+    {
+      "question": "Quelle est la somme des angles d'un triangle ?",
+      "answer": "La somme des angles intérieurs d'un triangle est 180°."
+    },
+    {
+      "question": "Qu'est-ce que le théorème de Pythagore ?",
+      "answer": "Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés."
+    },
+    {
+      "question": "Quelle est l'aire d'un rectangle ?",
+      "answer": "Aire=longueur×largeur."
+    },
+    {
+      "question": "Quel est le périmètre d'un rectangle ?",
+      "answer": "Périmètre=2×(longueur+largeur)."
+    },
+    {
+      "question": "Quelle est l'aire d'un carré ?",
+      "answer": "Aire=côté²."
+    },
+    {
+      "question": "Quel est le périmètre d'un carré ?",
+      "answer": "Périmètre=4×côté."
+    },
+    {
+      "question": "Quelle est l'aire d'un triangle ?",
+      "answer": "Aire=base×hauteur/2."
+    },
+    {
+      "question": "Quelle est l'aire d'un cercle ?",
+      "answer": "Aire=πr²."
+    },
+    {
+      "question": "Quelle est la circonférence d'un cercle ?",
+      "answer": "Circonférence=2πr."
+    },
+    {
+      "question": "Qu'est-ce que le théorème de Thalès ?",
+      "answer": "Dans une configuration de droites parallèles, Thalès permet d'établir des rapports de longueurs correspondants."
+    }
+  ],
+  "trigonometrie": [
+    {
+      "question": "Qu'est-ce que le sinus dans un triangle rectangle ?",
+      "answer": "sin(angle)=côté opposé/hypoténuse."
+    },
+    {
+      "question": "Qu'est-ce que le cosinus dans un triangle rectangle ?",
+      "answer": "cos(angle)=côté adjacent/hypoténuse."
+    },
+    {
+      "question": "Qu'est-ce que la tangente dans un triangle rectangle ?",
+      "answer": "tan(angle)=côté opposé/côté adjacent."
+    },
+    {
+      "question": "Quelle est l'identité sin²(x)+cos²(x) ?",
+      "answer": "Pour tout réel x, sin²(x)+cos²(x)=1."
+    },
+    {
+      "question": "Combien vaut sin(0) ?",
+      "answer": "sin(0)=0."
+    },
+    {
+      "question": "Combien vaut cos(0) ?",
+      "answer": "cos(0)=1."
+    },
+    {
+      "question": "Combien vaut sin(π/2) ?",
+      "answer": "sin(π/2)=1."
+    },
+    {
+      "question": "Combien vaut cos(π/2) ?",
+      "answer": "cos(π/2)=0."
+    }
+  ],
+  "probabilites_statistiques": [
+    {
+      "question": "Qu'est-ce qu'une probabilité ?",
+      "answer": "Une probabilité mesure la possibilité d'un événement et est comprise entre 0 et 1."
+    },
+    {
+      "question": "Quelle est la probabilité d'un événement certain ?",
+      "answer": "Elle vaut 1."
+    },
+    {
+      "question": "Quelle est la probabilité d'un événement impossible ?",
+      "answer": "Elle vaut 0."
+    },
+    {
+      "question": "Qu'est-ce que l'événement contraire ?",
+      "answer": "Pour un événement A, son contraire a une probabilité P(A contraire)=1-P(A)."
+    },
+    {
+      "question": "Qu'est-ce qu'une moyenne ?",
+      "answer": "La moyenne arithmétique est la somme des valeurs divisée par leur nombre, avec prise en compte des effectifs si nécessaire."
+    },
+    {
+      "question": "Qu'est-ce qu'une médiane ?",
+      "answer": "La médiane est une valeur qui partage une série ordonnée en deux parties de même effectif, avec les conventions adaptées aux séries paires."
+    },
+    {
+      "question": "Qu'est-ce que le mode ?",
+      "answer": "Le mode est la valeur ayant le plus grand effectif."
+    },
+    {
+      "question": "Qu'est-ce que l'étendue ?",
+      "answer": "L'étendue est la différence entre la plus grande et la plus petite valeur."
+    },
+    {
+      "question": "Qu'est-ce que la variance ?",
+      "answer": "La variance mesure la dispersion autour de la moyenne et correspond à la moyenne des carrés des écarts à la moyenne."
+    },
+    {
+      "question": "Qu'est-ce que l'écart-type ?",
+      "answer": "L'écart-type est la racine carrée de la variance."
+    }
+  ],
+  "exemples": [
+    {
+      "question": "Résous 2x+5=17.",
+      "answer": "2x=12, donc x=6."
+    },
+    {
+      "question": "Résous 3x-4=11.",
+      "answer": "3x=15, donc x=5."
+    },
+    {
+      "question": "Développe 3(x+4).",
+      "answer": "3x+12."
+    },
+    {
+      "question": "Développe (x+2)².",
+      "answer": "x²+4x+4."
+    },
+    {
+      "question": "Factorise x²-9.",
+      "answer": "(x-3)(x+3)."
+    },
+    {
+      "question": "Calcule 25 % de 200.",
+      "answer": "25 % de 200=50."
+    },
+    {
+      "question": "Calcule l'aire d'un rectangle de 8 cm sur 5 cm.",
+      "answer": "Aire=8×5=40 cm²."
+    },
+    {
+      "question": "Calcule la distance entre A(0,0) et B(3,4).",
+      "answer": "AB=√(3²+4²)=5."
+    },
+    {
+      "question": "Calcule la moyenne de 10, 12 et 14.",
+      "answer": "(10+12+14)/3=12."
+    }
+  ]
+}
