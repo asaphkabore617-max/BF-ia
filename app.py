@@ -43,20 +43,52 @@ def nettoyer(texte):
 # ====================================
 # Recherche intelligente
 # ====================================
+# ==========================================
+# 🧠 RECHERCHE INTELLIGENTE DE BF IA
+# ==========================================
 
-def repondre(question):
-
+def répondre(question):
     q = nettoyer(question)
 
-    for cle, reponse in connaissances.items():
+    # 1️⃣ Recherche exacte
+    for clé, réponse in connaissances.items():
+        clé_nettoyee = nettoyer(str(clé))
 
-        if nettoyer(cle) in q:
-            return reponse
+        if clé_nettoyee in q:
+            return réponse
 
+    # 2️⃣ Recherche par mots importants
+    mots_question = set(q.split())
+
+    meilleure_reponse = None
+    meilleur_score = 0
+
+    for clé, réponse in connaissances.items():
+        clé_nettoyee = nettoyer(str(clé))
+        mots_clé = set(clé_nettoyee.split())
+
+        if not mots_clé:
+            continue
+
+        # Nombre de mots communs
+        communs = mots_question.intersection(mots_clé)
+        score = len(communs)
+
+        # On garde la meilleure correspondance
+        if score > meilleur_score:
+            meilleur_score = score
+            meilleure_reponse = réponse
+
+    # On accepte la réponse seulement si suffisamment de mots correspondent
+    if meilleure_reponse is not None and meilleur_score >= 1:
+        return meilleure_reponse
+
+    # 3️⃣ Si BF IA ne trouve rien
     return (
-        "🤔 Je ne connais pas encore la réponse a cette question. "
-        "Mon créateur ASAPH continue encore à m'apprendre et serai bientôt opérationnel."
+        "🤔 Je ne connais pas encore cette information.\n\n"
+        "Mon créateur ASAPH continue d'améliorer BF IA 🧠🇧🇫 et je serai bientôt opérationnel"
     )
+
 
 # ====================================
 # Interface
