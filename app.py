@@ -117,7 +117,7 @@ if question:
 
     st.session_state.messages.append({
         "role": "assistant",
-        "content": reponse
+        "contenu": reponse
     })
 
     st.rerun()
